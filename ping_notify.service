@@ -1,0 +1,11 @@
+[Unit]
+Description=Ping checker
+After=multi-user.target
+
+[Service]
+Type=idle
+WorkingDirectory=/home/debian/ping_notify
+ExecStart=/usr/bin/python3 /home/debian/ping_notify/main.py
+
+[Install]
+WantedBy=multi-user.target

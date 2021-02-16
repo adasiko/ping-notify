@@ -1,0 +1,14 @@
+{
+	"loop_wait": 3600,
+	"ip_addresses":
+	{
+		"8.8.8.8": ["target_user@server"]
+	},
+	"im_server":
+	{
+		"host": "1.1.1.1",
+		"login": "bot_user@server",
+		"password": "password",
+		"port": "5222"
+	}
+}
